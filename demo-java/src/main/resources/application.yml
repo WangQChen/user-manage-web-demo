@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: user
+  datasource:
+    drive-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: wqc020701
